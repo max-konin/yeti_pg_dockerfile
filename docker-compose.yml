@@ -3,7 +3,7 @@ version: "3"
 services:
   pg:
     network_mode: "host"
-    image: max-konin/yeti_pg:latest
+    image: maxkonin/yeti_pg:latest
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
